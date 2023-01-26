@@ -1,10 +1,10 @@
 """inspired by https://github.com/gunziptarball/airflow-provider-alembic/"""
-from typing import Any
+from typing import Any, Optional
 
 from airflow.models import BaseOperator
 from airflow.utils.context import Context
 
-from astronomer.providers.alembic.hooks.alembic import AlembicHook
+from airflow_provider_alembic.hooks.alembic import AlembicHook
 
 
 class AlembicOperator(BaseOperator):
@@ -17,7 +17,7 @@ class AlembicOperator(BaseOperator):
             command: str,
             script_location: str,
             revision: str = 'head',
-            command_kwargs: dict | None = None,
+            command_kwargs: Optional[dict] = None,
             *args,
             **kwargs
     ):
