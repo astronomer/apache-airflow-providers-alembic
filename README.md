@@ -16,6 +16,7 @@ mkdir dags/migrations
 cd dags/migrations
 alembic init .
 ```
+**Note: You will not need to edit `alembic.ini` or `env.py` for the AlembicOperator or AlembicHook to work, however may need to for things like [autogenerating migrations](https://alembic.sqlalchemy.org/en/latest/autogenerate.html) from SQLAlchemy models.**
 
 - Create a revision
 ```shell
