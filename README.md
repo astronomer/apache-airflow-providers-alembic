@@ -1,4 +1,24 @@
-# Alembic Airflow Provider
+<!--suppress HtmlDeprecatedAttribute -->
+<p align="center" >
+  <a href="https://www.astronomer.io/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/SQLAlchemy.svg"
+    alt="Alembic Provider Logo"
+    height="200px" width="300px"
+    style="display:block; margin-left: auto; margin-right: auto;" />
+  </a>
+</p>
+<h1 align="center" style="text-align: center;">
+   Alembic Provider
+</h1>
+<h3 align="center" style="text-align: center;">
+  Alembic Database Migrations in Airflow.
+
+Created with ❤️ by the CETA Team @ Astronomer
+</h3>
+
+# ⚠️ This project is a proof-of-concept and not officially supported nor maintained by Astronomer ⚠️
+
+
 An Airflow Provider to use Alembic to manage database migrations
 [Read more here](https://alembic.sqlalchemy.org/en/latest/)
 
